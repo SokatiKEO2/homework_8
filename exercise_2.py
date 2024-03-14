@@ -1,2 +1,2 @@
-def index_power(numnbers, n):
+def index_power(numbers, n):
     ...
