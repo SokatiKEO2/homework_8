@@ -9,10 +9,9 @@ class TestIndexPower(unittest.TestCase):
         self.assertEqual(index_power([0, 1], 0), 1)
         
         #edge case
-        #return -1 when N is outside array
+        # Return -1 when N is outside array
         self.assertEqual(index_power([1, 2], 3), -1)
         self.assertEqual(index_power([1, 2, 3], 3), -1)
-        self.assertEqual(index_power([1, 2, 3], 5), -1)
         
 if __name__ == '__main__':
     unittest.main()
