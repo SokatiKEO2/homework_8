@@ -1,5 +1,4 @@
 from colorama import Fore, Style
-
 def index_power(numbers, n):       
     n = int(n)    
     if n < len(numbers):
